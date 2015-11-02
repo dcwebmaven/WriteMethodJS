@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<script type="text/javascript">
+<!--
+
+function openit(){
+
+   winda=window.open("","","width=200,height=400") 
+winda.focus()     
+   winda.document.open()
+winda.document.bgColor="yellow"
+winda.document.fgColor="blue"
+   winda.document.write("Here is some of the wisdom of the ages: This above all, to thine own self be true.  --William Shakespeare")        
+   winda.document.close()
+}
+
+//-->
+</script>
+
+</head>
+
+<body bgcolor=red>
+
+<form>
+   <input type=button onClick=openit() value="Open a window">
+</form>
+<p>You'll never know until you try.</p>
+
+</body>
+</html>
+
